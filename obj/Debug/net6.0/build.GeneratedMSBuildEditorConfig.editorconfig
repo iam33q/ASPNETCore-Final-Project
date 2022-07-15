@@ -1,0 +1,204 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = build
+build_property.RootNamespace = build
+build_property.ProjectDir = /home/iamaman/Documents/NOVUS/TheBigProject/build/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /home/iamaman/Documents/NOVUS/TheBigProject/build
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXRVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/AddProperty.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRkUHJvcGVydHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Events/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnRzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Events/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnRzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Events/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnRzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Events/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnRzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Events/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXZlbnRzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Features.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmVhdHVyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Items/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbXMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Items/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Items/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Items/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Items/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSXRlbXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Properties/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvcGVydGllcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Properties/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvcGVydGllcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Properties/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvcGVydGllcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Properties/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvcGVydGllcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Properties/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvcGVydGllcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Tenants/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVuYW50cy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Tenants/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVuYW50cy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Tenants/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVuYW50cy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Tenants/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVuYW50cy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Tenants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVuYW50cy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Transactions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVHJhbnNhY3Rpb25zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Transactions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVHJhbnNhY3Rpb25zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Transactions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVHJhbnNhY3Rpb25zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Transactions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVHJhbnNhY3Rpb25zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/Transactions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVHJhbnNhY3Rpb25zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Home/BalanceView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9CYWxhbmNlVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Home/PropertyView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcm9wZXJ0eVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Home/TenantView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UZW5hbnRWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Shared/_DashboardNavPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19EYXNoYm9hcmROYXZQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Shared/_NavLoggedInPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19OYXZMb2dnZWRJblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/iamaman/Documents/NOVUS/TheBigProject/build/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e1elirzurv

@@ -1,0 +1,60 @@
+@page
+@model build.Pages.Tenants.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tenant[0].name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tenant[0].telephone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tenant[0].email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tenant[0].dateOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tenant[0].Property)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Tenant) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telephone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Property.propertyID)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.tenantID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.tenantID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.tenantID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

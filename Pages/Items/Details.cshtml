@@ -1,0 +1,43 @@
+@page
+@model build.Pages.Items.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Item</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Item.name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Item.name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Item.value)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Item.value)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Item.description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Item.description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Item.Property)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Item.Property.propertyID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Item?.itemID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

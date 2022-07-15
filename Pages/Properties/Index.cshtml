@@ -1,0 +1,48 @@
+@page
+@model build.Pages.Properties.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Property[0].propertyID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Property[0].name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Property[0].details)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Property) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.propertyID)
+            </td>
+                        <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.details)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.propertyID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.propertyID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.propertyID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

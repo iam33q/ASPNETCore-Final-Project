@@ -1,0 +1,53 @@
+@page
+@model build.Pages.Events.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Event</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Event.PropertyID" class="control-label"></label>
+                <select asp-for="Event.PropertyID" class ="form-control" asp-items="ViewBag.PropertyID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Event.name" class="control-label"></label>
+                <input asp-for="Event.name" class="form-control" />
+                <span asp-validation-for="Event.name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Event.description" class="control-label"></label>
+                <input asp-for="Event.description" class="form-control" />
+                <span asp-validation-for="Event.description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Event.time" class="control-label"></label>
+                <input asp-for="Event.time" class="form-control" />
+                <span asp-validation-for="Event.time" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+<br>
+<div>Note:
+    Due to ongoing server issues, the ability to view, edit and delete events is not available.
+    We apologize for the inconvenience. 
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

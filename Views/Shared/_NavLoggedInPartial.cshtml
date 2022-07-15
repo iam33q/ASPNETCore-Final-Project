@@ -1,0 +1,38 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav flex-grow-1">
+@if (SignInManager.IsSignedIn(User))
+{   //Navbar links when you're logged in
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-page="/Properties/Index">Property View</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-page="/Transactions/Index">Transactions</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-page="/Tenants/Index">Tenants</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-page="/Items/Index">Items</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-page="/Events/Create">Events</a>
+    </li>
+} else 
+{   //Navbar links when you're logged out
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="/Features">Features</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="/Privacy">Privacy</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="/AboutUs">About Us</a>
+    </li>
+}
+</ul>

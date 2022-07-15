@@ -1,0 +1,36 @@
+@page
+@model build.Models.InputModels.AddPropertyInput;
+@{
+    ViewData["Title"] = "Add Property";
+}
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"></script>
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <form method="post" asp-action="PropertyView">
+        <div asp-validation-summary="All"></div>
+
+        <label for="inputName">Name</label><br>
+        <input type="text" name="name"><br>
+        <span asp-validation-for="inputName" class="text-danger"></span>
+        <label for="inputAddress0">Street Name</label><br>
+        <input type="text" name="inputAddress0"><br>
+        <span asp-validation-for="inputAddress0" class="text-danger"></span>
+        <label for="inputAddress1">Street Number</label><br>
+        <input type="text" name="inputAddress1"><br>        
+        <span asp-validation-for="inputAddress1" class="text-danger"></span>
+        <label for="inputAddress2">City</label><br>
+        <input name="inputAddress2" type="text"><br>
+        <span asp-validation-for="inputAddress2" class="text-danger"></span>
+        <label for="inputAddress3">Post Code</label><br>
+        <input name="inputAddress3" type="text"><br>
+        <span asp-validation-for="inputAddress3" class="text-danger"></span>
+        <label for="inputDescription" name="description">Description</label><br>
+        <textarea name="inputDescription" id="" cols="24" rows="5"></textarea><br>
+        <span asp-validation-for="inputDescription" class="text-danger"></span>
+        <input type="submit" value="Add Property">
+    </form>
+</div>

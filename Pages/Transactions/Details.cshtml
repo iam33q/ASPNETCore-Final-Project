@@ -1,0 +1,61 @@
+@page
+@model build.Pages.Transactions.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Transaction</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Transaction.amount)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Transaction.amount)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Transaction.sender)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Transaction.sender)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Transaction.recipient)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Transaction.recipient)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Transaction.description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Transaction.description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Transaction.outbound)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Transaction.outbound)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Transaction.date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Transaction.date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Transaction.Property)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Transaction.Property.propertyID)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Transaction?.transactionID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

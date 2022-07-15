@@ -1,0 +1,15 @@
+@model build.Models.Property;
+@{
+    ViewData["Title"] = "Property View";
+    var prop = Model;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div id=propnav>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <partial name="_DashboardNavPartial">
+    </nav>
+</div> 
+
+<a href="/AddProperty">Add Property</a>
